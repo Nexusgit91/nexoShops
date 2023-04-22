@@ -1,0 +1,6 @@
+.heading-container {
+  transition: transform 0.2s ease;
+}
+.heading-container:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,78 @@
+/* Style for orders table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Style for images */
+.order-image {
+  max-width: 80px;
+  max-height: 80px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+/* Style for order form */
+.order-form {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.order-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.order-form input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.order-form button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.order-form button:hover {
+  background-color: #3e8e41;
+}
+
+/* Style for page heading */
+.page-heading {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Style for error message */
+.error {
+  color: red;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,39 @@
+.signup-container {
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  width: 100px;
+}
+
+.signup-container h1 {
+  text-align: center;
+}
+
+.signup-container .form-group {
+  margin-bottom: 20px;
+}
+
+.signup-container .form-label {
+  font-weight: bold;
+}
+
+.signup-container .submit-btn {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  font-size: 18px;
+}
+
+.signup-container .fa {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .signup-container {
+    width: 100%;
+    padding: 20px;
+  }
+}

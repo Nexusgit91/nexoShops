@@ -1,0 +1,35 @@
+.payment-form {
+  display: flex;
+  justify-content: center;
+}
+
+.google-animation-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.google-animation {
+  display: flex;
+  justify-content: space-between;
+  font-size: 200px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.google-animation span {
+  color: #4285f4;
+  animation: google 1s ease-in-out infinite;
+}
+
+@keyframes google {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

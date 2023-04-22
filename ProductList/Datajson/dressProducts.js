@@ -1,0 +1,38 @@
+export const dressProducts = [
+  {
+    id: 1,
+    name: "Iphone Pro 7",
+    description: "",
+    price: 9.99,
+    quantity: 2,
+    paymentMethod: "Credit Card",
+    imgSrc: require("../img/suit.jpg"),
+  },
+  {
+    id: 2,
+    name: "Iphone Pro 7",
+    description: "",
+    price: 9.99,
+    quantity: 2,
+    paymentMethod: "Credit Card",
+    imgSrc: require("../img/suit.jpg"),
+  },
+  {
+    id: 3,
+    name: "Iphone Pro 7",
+    description: "",
+    price: 9.99,
+    quantity: 2,
+    paymentMethod: "Credit Card",
+    imgSrc: require("../img/suit.jpg"),
+  },
+  {
+    id: 4,
+    name: "Iphone Pro 7",
+    description: "",
+    price: 9.99,
+    quantity: 2,
+    paymentMethod: "Credit Card",
+    imgSrc: require("../img/suit.jpg"),
+  },
+];

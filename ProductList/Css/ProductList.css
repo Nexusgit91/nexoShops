@@ -1,0 +1,8 @@
+.product-card {
+  /* your existing styles for product card */
+  transition: all 0.3s ease-out; /* add transition effect */
+}
+
+.product-card:hover {
+  transform: scale(1.05); /* add zoom effect on hover */
+}
